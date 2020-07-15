@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+
+/* browser css reset */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* colors */
+:root {
+    --dark-cyan: hsl(180, 29%, 50%);
+    --very-dark-cyan: hsl(180, 14%, 20%);
+
+    --light-gray-cyan: hsl(180, 52%, 96%);
+    /* background */
+    --gray-cyan: hsl(180, 31%, 95%);
+    /* Filter tablets */
+    --dark-gray-cyan: hsl(180, 8%, 52%);
+}
+
+body {
+    background-color: var(--light-gray-cyan);
+    font-family: 'Spartan', sans-serif;
+}
+
+.navigation {
+    background-color: var(--dark-cyan);
+    padding: 20px;
+    text-align: center;
+}
+
+.navigation h4 {
+    color: #fff;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 1.8rem;
+}
+
+.header {
+    height: 100vh;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.header img {
+    margin-top: 15vh;
+    width: 60vh;
+}
+
+.header h1 {
+    color: rgba(117, 114, 114, 0.884);
+    font-family: 'Sacramento', cursive;
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 25px;
+}
+
+.header h2 {
+    color: var(--dark-cyan);
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 2rem;
+}
+
+.about {
+    background-color: #fff;
+    font-family: 'Josefin Slab', serif;
+    height: auto;
+    padding: 50px 50px 20px;
+    text-align: center;
+}
+
+.about img {
+    border-radius: 50%;
+    width: 30vh;
+}
+
+.about h2 {
+    color: var(--dark-cyan);
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 2rem;
+}
+
+.about p, .about h5 {
+    color: grey;
+}
+
+.sub-about td {
+    color: grey;
+}
+
+.sub-about h3 {
+    color: var(--dark-cyan);
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 1.7rem;
+}
+
+footer {
+    margin-top: 6rem;
+    padding: 4rem;
+    text-align: center;
+    font-size: 0.7rem;
+    color: #fff;
+    background-color: var(--very-dark-cyan);
+    line-height: 1.6;
+}
+
+footer a {
+    color: cyan;
+    transition: all 0.3s ease;
+    padding-bottom: 0.1rem;
+}
+
+footer a:hover {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
