@@ -25,7 +25,6 @@
   <div>
 
     <div class="navigation">
-      <!-- <a href="#">Home</a> <a href="#">About</a> <a href="#">Contact</a> -->
       <h4>Welcome to my<br>Portfolio Page</h4>
     </div>
 
@@ -38,18 +37,28 @@
     <section class="about">
       <h2>About Timilehin</h2>
       <div class="row mt-5">
-        <div class="col-lg-2">
+        <div class="col-lg-6">
           <img src="./assets/2.jpg" class="img-about">
         </div>
-        <div class="col-lg-10 mt-3">
+        <div class="col-lg-6 mt-3 px-5">
           <h5>An open-minded learner, problem-solving and creative <strong>Web Developer</strong>.</h5>
           <h5><strong>Geophysicist</strong> (University Of Ilorin)</h5>
+          <span>
+            <i class="fa fa-sm fa-phone"></i><br>
+            <span class="icon-txt"><strong>(+234)-902-599-3113</strong></span>
+          </span>
+          <br>
+          <span>
+            <i class="fa fa-sm fa-envelope"></i><br>
+            <span class="icon-txt"><strong>Omotugbatimilehin7@gmail.com</strong></span>
+          </span>
+          
         </div>
       </div>
 
       <div class="sub-about mt-5 container-fluid">
         <h3>Skills</h3>
-        <div class="row mt-5">
+        <div class="row mt-3">
 
           <div class="col-lg-4">
             <div class="card">
@@ -138,7 +147,8 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
               </a>
-              <p class="mt-4"><strong>Visit my github page for links and more of my projects.</strong></p>
+              <p class="mt-5"><strong>Link to <a href="https://covidtestapp.web.app" target="_blank" style="text-decoration: none; color: #5ba4a4;">Covid App</a> built with Vue js.</strong></p>
+              <p><strong>Visit my <a href="https://github.com/7emmytim" target="_blank" style="text-decoration: none; color: #5ba4a4;">github page</a> for links and more of my projects.</strong></p>
             </div>
 
           </div>
@@ -150,20 +160,34 @@
         <h3>Certifications</h3>
         <table class="table table-striped mt-4">
           <tr>
-            <td>November 2019 Till Date</td>
-            <td><strong>Web Developer</strong> Terapacks, Lokoja.</td>
+            <td><strong>Terapacks</strong></td>
+            <td>
+              Web Development Course, Web Apps With Vue Js & Firebase
+            </td>
           </tr>
           <tr>
-            <td>June 2020 Till Date</td>
-            <td><strong>Web Developer</strong> Brandor Global, Lokoja.</td>
+            <td><strong>Coursera (University Of Michigan)</strong></td>
+            <td>
+              Interactivity With Javascript, Advanced Styling With Responsive Design
+            </td>
           </tr>
           <tr>
-            <td>August 2016 - October 2017</td>
-            <td><strong>Mathematics Teacher</strong> Silver Valley International College & Teejay Summer Lesson.</td>
+            <td><strong>FreeCodeCamp</strong></td>
+            <td>
+              Responsive Web Design, Javascript Algorithms & Data Structures
+            </td>
           </tr>
           <tr>
-            <td>May 2018 - August 2018</td>
-            <td><strong>Industrial Trainee</strong> Dangote Cement Plc. (Obajana Plant)</td>
+            <td><strong>IBM</strong></td>
+            <td>
+              Web Development
+            </td>
+          </tr>
+          <tr>
+            <td><strong>Udemy</strong></td>
+            <td>
+              Javascript Modern ES6 2020, Wordpress For Beginners
+            </td>
           </tr>
         </table>
       </div>
@@ -173,30 +197,34 @@
 
   <section class="contact mt-5">
     <div class="row">
+      <div class="col-lg-3"></div>
       <div class="col-lg-6">
         <h2>Contact Me</h2>
-        <form action="mailto:omotugbatimilehin7@gmail.com" method="POST" enctype="text/plain" class="mt-3">
-          <input type="text" class="form-control" placeholder="Full Name">
-          <input type="text" class="form-control" placeholder="Email Address">
-          <textarea cols="60" class="form-control" rows="5" placeholder="write something here..."></textarea>
-          <button type="submit" class="btn btn-md mt-3 mb-5">Send message</button>
+        <form action="mailto:omotugbatimilehin7@gmail.com" method="post" enctype="text/plain" class="mt-4" accept-charset="ISO-8859-1" onsubmit="var   originalCharset = document.charset; document.charset = 'ISO-8859-1';
+        window.onbeforeunload = function (){document.charset=originalCharset;};">
+          <input type="text" class="form-control" name="Name " placeholder="Full Name" required>
+          <input type="email" class="form-control" name="Email " placeholder="Email Address" required>
+          <textarea cols="60" class="form-control" rows="5" name="Message " placeholder="write something here..."></textarea>
+          <button type="submit" class="btn btn-md mt-3">Send message</button>
         </form>
       </div>
-      <div class="col-lg-6 px-5 py-5">
-        <h5>Social links</h5>
-        <p><i class="fa fa-sm fa-linkedin"></i> <a
-            href="https://www.linkedin.com/in/timilehin-omotugba-b551b5174/">timilehin-omotugba-b551b5174</a></p>
-        <p><i class="fa fa-sm fa-github"></i> <a href="https://github.com/7emmytim">7emmytim</a></p>
-        <p><i class="fa fa-sm fa-facebook"></i> <a
-            href="https://www.facebook.com/timilehin.omotugba">timilehin.omotugba</a></p>
-        <p><i class="fa fa-sm fa-envelope"></i> <a href="#">Omotugbatimilehin7@gmail.com</a></p>
-        <p><i class="fa fa-sm fa-phone"></i> <a href="#">09025993113</a></p>
-      </div>
+      <div class="col-lg-3"></div>
     </div>
   </section>
 
   <footer>
-    <p>Timilehin Omotugba || Portfolio Site</p>
+
+
+    <a href="https://www.linkedin.com/in/timilehin-omotugba-b551b5174/" target="_blank">
+      <i class="fa fa-lg fa-linkedin"></i>
+    </a>
+    <a href="https://github.com/7emmytim" target="_blank">
+      <i class="fa fa-lg fa-github"></i>
+    </a>
+    <a href="https://www.facebook.com/timilehin.omotugba" target="_blank">
+      <i class="fa fa-lg fa-facebook"></i>
+    </a><br>
+
   </footer>
 
   </div>
