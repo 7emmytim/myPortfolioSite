@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300&display=swap');
 
 /* browser css reset */
 *,
@@ -11,26 +12,13 @@
     padding: 0;
 }
 
-
-/* colors */
-:root {
-    --dark-cyan: hsl(180, 29%, 50%);
-    --very-dark-cyan: hsl(180, 14%, 20%);
-
-    --light-gray-cyan: hsl(180, 52%, 96%);
-    /* background */
-    --gray-cyan: hsl(180, 31%, 95%);
-    /* Filter tablets */
-    --dark-gray-cyan: hsl(180, 8%, 52%);
-}
-
 body {
-    background-color: var(--light-gray-cyan);
-    font-family: 'Spartan', sans-serif;
+    background-color: #effafa;
+    font-family: 'Cairo', sans-serif;
 }
 
 .navigation {
-    background-color: var(--dark-cyan);
+    background-color: #5ba4a4;
     padding: 20px;
     text-align: center;
 }
@@ -62,7 +50,7 @@ body {
 }
 
 .header h2 {
-    color: var(--dark-cyan);
+    color: #5ba4a4;
     font-family: 'Do Hyeon', sans-serif;
     font-size: 2rem;
 }
@@ -71,17 +59,17 @@ body {
     background-color: #fff;
     font-family: 'Josefin Slab', serif;
     height: auto;
-    padding: 50px 50px 20px;
+    padding: 50px 30px 20px;
     text-align: center;
 }
 
-.about img {
+.img-about {
     border-radius: 50%;
     width: 30vh;
 }
 
 .about h2 {
-    color: var(--dark-cyan);
+    color: #5ba4a4;
     font-family: 'Do Hyeon', sans-serif;
     font-size: 2rem;
 }
@@ -94,10 +82,54 @@ body {
     color: grey;
 }
 
+td strong {
+    color: #5ba4a4;
+}
+
 .sub-about h3 {
-    color: var(--dark-cyan);
+    color: #5ba4a4;
     font-family: 'Do Hyeon', sans-serif;
     font-size: 1.7rem;
+}
+
+.card {
+    background-color: #effafa;
+    border-right: 5px solid #5ba4a4;
+    border-left: 5px solid #5ba4a4;
+    width: 100%;
+    min-height: 200px;
+    padding: 25px 0;
+    margin: 10px auto;
+}
+
+.card p {
+    color: darkgray;
+    letter-spacing: 2px;
+}
+
+.card strong {
+    color: #5ba4a4;
+    font-weight: bolder;
+}
+
+.carousel-item {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23008b8b' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+   
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23008b8b' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 
 .contact {
@@ -108,12 +140,12 @@ body {
 }
 
 .contact h2 {
-    color: var(--dark-cyan);
+    color: #5ba4a4;
 }
 
 .contact input, .contact textarea {
     background: transparent !important;
-    border: 1px solid var(--dark-cyan) !important;
+    border: 1px solid #5ba4a4 !important;
     border-radius: 0px !important;
     letter-spacing: 3px !important;
     margin: 10px auto;
@@ -132,14 +164,14 @@ body {
 
 .contact button {
     border-radius: 50px;
-    background-color: var(--dark-cyan);
+    background-color: #5ba4a4;
     color: #fff;
 }
 
 .contact button:hover {
-    border: 1px solid var(--dark-cyan);
+    border: 1px solid #5ba4a4;
     background-color: #fff;
-    color: var(--dark-cyan);
+    color: #5ba4a4;
 }
 
 .contact a {
@@ -149,33 +181,21 @@ body {
 }
 
 .contact p {
-    color: var(--dark-cyan);
+    color: #5ba4a4;
     margin: 18px 0;
     text-align: left;
 }
 
 .contact h5 {
-    color: var(--dark-cyan);
+    color: #5ba4a4;
     text-align: left;
 }
 
 footer {
-    margin-top: 6rem;
-    padding: 4rem;
+    margin-top: 60px;
+    padding: 20px;
     text-align: center;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     color: #fff;
-    background-color: var(--very-dark-cyan);
-    line-height: 1.6;
-}
-
-footer a {
-    color: cyan;
-    transition: all 0.3s ease;
-    padding-bottom: 0.1rem;
-}
-
-footer a:hover {
-    color: #fff;
-    border-bottom: 1px solid #fff;
+    background-color: #5ba4a4;
 }
