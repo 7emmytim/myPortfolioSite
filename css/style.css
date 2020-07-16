@@ -95,6 +95,10 @@ td strong {
     color: #5ba4a4;
 }
 
+td {
+    width: 50% !important;
+}
+
 .sub-about h3 {
     color: #5ba4a4;
     font-family: 'Do Hyeon', sans-serif;
